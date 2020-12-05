@@ -1,6 +1,6 @@
-#Social media sample app
+# Social media sample app
 
-##Functionalities
+## Functionalities
 - friends
 - chat with friends
 - share pictures
@@ -8,7 +8,7 @@
 - see people with similar interests
 - comment on posts
 
-##Design and requirement
+## Design and requirement
 ### Figma link https://www.figma.com/file/dDUPgsCDk7LmaR9DeuLaPJ/Social-Mobile-App-UI-Kit?node-id=0%3A1
 - Use bootstrap
 - Dont bother about mobile
@@ -17,7 +17,7 @@
 - dont bother about JS; Only make css and html designs
 
 
-##Development
+## Development
 - Make a branch / fork
 - Make your changes in your branches / fork and make a pull request / merge request back to the main repo / branch
 - Test your designs make sure they are not broken before commiting it
