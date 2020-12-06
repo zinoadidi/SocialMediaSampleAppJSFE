@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit prtofile</title>
+</head>
+<body>
+<header>
+    <h2>
+        Edit your profile
+    </h2>
+</header>
+<main>
+    <section>
+
+    </section>
+    <section>
+        <form class="card m-5 needs-validation" method="post" onsubmit="event.preventDefault(); updateProfile()">
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input required  id="email" type="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">username</label>
+                    <input required  id="username" type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">profilePhoto</label>
+                    <input required  id="profilePhoto" type="url" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">name</label>
+                    <input required  id="name" type="text" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input required  id="password" type="password" class="form-control" required>
+                </div>
+            </div>
+            <div class="card-footer text-right">
+                <button type="submit" class="btn btn-dark" style="width:100%"> Submit new information </button>
+            </div>
+
+            <div>
+                <a href="../">Cancel Update</a>
+            </div>
+        </form>
+
+    </section>
+</main>
+</body>
+<script src="../../scripts/util.js"></script>
+<script src="../../DB/databaseManager.js"></script>
+<script src="../../Models/User.js"></script>
+<script src="edit.js"></script>
+
+</html>

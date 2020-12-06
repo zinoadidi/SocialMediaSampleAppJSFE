@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+</head>
+<body>
+<header>
+    <div>
+        <img src="" id="profilePhoto" style="width: 95px; height: 95px">
+    </div>
+    <div>
+        <h3>
+            Profile
+        </h3>
+        <div>
+            <label id="profileId"></label>
+        </div>
+        <div>
+            <label id="profileName"></label>
+        </div>
+        <div>
+            <label id="profileUserName"></label>
+        </div>
+        <div>
+            <label id="profileEmail"></label>
+        </div>
+        <div>
+            <a href="edit/">Edit Profile</a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section>
+        <div>
+            <h4>My Posts</h4>
+            <button>Add Posts</button>
+
+            <div id="posts">
+
+            </div>
+        </div>
+        <div>
+            <h4>My Friends</h4>
+            <button>Add Friends</button>
+            <div id="friends">
+
+            </div>
+        </div>
+    </section>
+
+</main>
+</body>
+<script src="../Models/User.js"></script>
+<script src="../scripts/util.js"></script>
+<script src="../DB/databaseManager.js"></script>
+<script src="profile.js"></script>
+</html>
